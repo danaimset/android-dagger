@@ -27,7 +27,6 @@ import android.widget.TextView
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import com.example.android.dagger.MyApplication
 import com.example.android.dagger.R
 import com.example.android.dagger.registration.RegistrationActivity
 import com.example.android.dagger.registration.RegistrationViewModel
@@ -46,6 +45,7 @@ class EnterDetailsFragment : Fragment() {
      */
     @Inject
     lateinit var registrationViewModel: RegistrationViewModel
+
     @Inject
     lateinit var enterDetailsViewModel: EnterDetailsViewModel
 
